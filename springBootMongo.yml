@@ -11,7 +11,7 @@ spec:
      lables:
        name: springboot
    spec:
-     controllers:
+     containers:
        - image: babu6225/spring-boot-mongo
          name: springboot
          prots: 
