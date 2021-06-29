@@ -18,7 +18,7 @@ spec:
           - name: springboot
             containerPort: 8080
 ---
-# Node Port Service
+Node Port Service
 apiVersion: v1
 kind: service
 metadata:
@@ -33,7 +33,7 @@ spec:
  selector:
   name: springboot
 ---
-# Mongo host path rc
+Mongo host path rc
 apiVersion: v1
 kind: ReplicationController
 metadata:
